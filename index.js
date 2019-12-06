@@ -13,7 +13,7 @@ var server = app.listen(process.env.PORT || 4000, function() {
 
 //we use middleware to serve the stadic files.
 
-app.use(express.static("public"));
+app.use("/", express.static("public"));
 
 //Setting socket io up, we are invoking a function
 var io = socket(server);
