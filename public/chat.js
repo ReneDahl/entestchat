@@ -1,5 +1,5 @@
 //Make connection
-var socket = io.connect("https://https://entestchat.herokuapp.com/");
+var socket = io.connect("https://entestchat.herokuapp.com/");
 
 //quering the dom
 
